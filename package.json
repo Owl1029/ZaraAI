@@ -1,0 +1,24 @@
+{
+  "name": "zaraai",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1348.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "openai": "^3.2.1",
+    "speech-recorder": "^2.1.0",
+    "wav": "^1.0.2"
+  },
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
